@@ -1,0 +1,17 @@
+table {
+    border: solid 2px #abcf3e;
+}
+
+caption {
+    margin-bottom: 10px;
+}
+
+th {
+    padding: 10px 20px;
+    border: solid 2px #5caBee;
+}
+
+td {
+    padding: 10px 20px;
+    border: solid 2px #5caBee;
+}
