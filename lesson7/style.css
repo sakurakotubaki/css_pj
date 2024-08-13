@@ -1,0 +1,27 @@
+.card {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    max-width: 400px; /* カードの最大幅を設定 */
+    margin: 0 auto; /* カードを中央揃えにする */
+}
+.card__img-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+.card__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto; /* 画像の高さを自動調整 */
+    transform: translate(-50%, -50%);
+}
+.card__body {
+    padding: 15px;
+}
+.card__body > *.last-child {
+    margin-bottom: 0;
+}
+.card__title {
+    margin-bottom: 5px;
+}
