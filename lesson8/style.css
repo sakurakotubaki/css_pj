@@ -1,0 +1,45 @@
+.header {
+    padding-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.header__inner {
+    max-width: 1230px;
+    background-color: pink;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    background-color: yellow;
+    width: 150px;
+    text-align: center;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav__inner {
+    background-color: lightblue;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav__inner li {
+    margin-left: 20px;
+}
+
+.main {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
